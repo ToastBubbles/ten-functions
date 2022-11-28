@@ -20,4 +20,63 @@
  * and
  * concat
  */
+function concat(a,b){
+    return a.toString() + b.toString();
+}
+function and(a,b){
+    return a&&b;
+}
+function or(a,b){
+    return a||b;
+}
+function isEqual(a,b){
+    return a==b;
+}
+
+function isIdentical(a,b){
+    return a===b;
+}
+
+function isEven(e){
+    if (e === false){
+        return  false;
+    }else {
+        return e % 2 == 0;
+    }
+}
+
+
+function addOne(a){
+    return parseFloat(a) + 1;
+}
+
+
+
+function not (n){
+    return !n;
+}
+
+
+
+
+
+function isFalse (f){
+    if(typeof f ==="undefined" || f === null)
+        return false;
+    else {
+        return !f;
+    }
+}
+
+
+
+function isTrue(t){
+    if(typeof t === "string" || typeof t === "number"){
+        return false;
+    } else {
+        return t;
+    }
+}
+
+
 
